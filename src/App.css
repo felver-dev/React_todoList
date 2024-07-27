@@ -1,0 +1,185 @@
+.homeWrapper {
+  position: relative;
+  background: #fff;
+  width: 45rem;
+  height: max-content;
+  border-radius: 8px;
+  box-shadow: 1px 8px 0px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 1px -10px #ccc;
+  -moz-box-shadow: 2px 2px 12px 0px #ccc;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.underline {
+  width: max-content;
+  padding-bottom: 1rem;
+  border-bottom: 1.5px solid gray;
+}
+
+.addHolder {
+  margin: 2rem 0;
+  width: "100%";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addButton {
+  cursor: pointer;
+  color: #034ac5;
+  background: #a1caff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.closeButton {
+  cursor: pointer;
+  color: #831100;
+  background: #ffafac;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.form {
+  background: linear-gradient(180deg, #dddde6 0%, #d8d8f1 100%);
+  position: absolute;
+  left: 15%;
+  top: 20rem;
+  width: max-content;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+.inputs {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.input .in:focus,
+input:focus {
+  outline: none;
+}
+
+.input input,
+.in {
+  width: 25rem;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 2px solid #aaa;
+}
+
+.formButtons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.formButtons button {
+  width: 10rem;
+}
+
+.options {
+  margin: 2rem 0;
+  width: "100%";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.optionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.singleOption {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.numberOption {
+  margin-left: 0.5rem;
+  background: #bfbff2;
+  color: #fafafa;
+  border-radius: 100px;
+  padding: 10px;
+  width: max-content;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasks {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: "red";
+  cursor: pointer;
+  color: #555;
+  font-size: 14px;
+}
+.task-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+.btns {
+  text-align: right;
+}
+.btns div {
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 13px;
+  text-align: right;
+  color: #555;
+  gap: 10px;
+}
+.restoreBtn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 13px;
+  text-align: right;
+  color: #034ac5;
+  gap: 10px;
+}
